@@ -1,0 +1,71 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Development/dawanda/AndroidNative" />
+        <option value="$USER_HOME$/Development/Gifty" />
+        <option value="$USER_HOME$/Development/apollo/apollo-sample" />
+        <option value="$USER_HOME$/Development/dawanda/Gifty" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Development/dawanda/AndroidNative" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Development/dawanda/AndroidNative" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Development/Gifty">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-171.4220116" />
+              <option name="productionCode" value="AI" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1502120863032" />
+              <option name="buildTimestamp" value="1501111180389" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Development/apollo/apollo-sample">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-171.4220116" />
+              <option name="productionCode" value="AI" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1501850449989" />
+              <option name="buildTimestamp" value="1501111188150" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Development/dawanda/AndroidNative">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-171.4263559" />
+              <option name="productionCode" value="AI" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1502893779736" />
+              <option name="buildTimestamp" value="1502391577051" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Development/dawanda/Gifty">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="AI-171.4220116" />
+              <option name="productionCode" value="AI" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1501691084868" />
+              <option name="buildTimestamp" value="1501111181249" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/Development/apollo" />
+  </component>
+</application>

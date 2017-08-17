@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-native-run-configurations" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="remove-java-aware-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/gradle.xml" timestamp="1501691085000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/animated_vector_drawable_26_0_0.xml" timestamp="1501691149000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/annotations_13_0.xml" timestamp="1501691149000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/appcompat_v7_26_0_0.xml" timestamp="1501691149000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/constraint_layout_1_0_2.xml" timestamp="1501691149000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/constraint_layout_solver_1_0_2.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/espresso_core_3_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/espresso_idling_resource_3_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/hamcrest_core_1_3.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/hamcrest_integration_1_3.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/hamcrest_library_1_3.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/javawriter_2_1_1.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/javax_inject_1.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/jsr305_2_0_1.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/junit_4_12.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/kotlin_stdlib_1_1_3_2.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/kotlin_stdlib_jre7_1_1_3_2.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/kxml2_2_3_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/rules_1_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/runner_1_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/support_annotations_26_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/support_compat_26_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/support_core_ui_26_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/support_core_utils_26_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/support_fragment_26_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/support_media_compat_26_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/support_v4_26_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/libraries/support_vector_drawable_26_0_0.xml" timestamp="1501691150000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/misc.xml" timestamp="1501691161000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/modules.xml" timestamp="1501691149000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/runConfigurations.xml" timestamp="1501691085000" />
+    <file path="/home/matti/Development/dawanda/Gifty/.idea/workspace.xml" timestamp="1501750964000" />
+    <file path="/home/matti/Development/dawanda/Gifty/Gifty.iml" timestamp="1501691149000" />
+    <file path="/home/matti/Development/dawanda/Gifty/app/app.iml" timestamp="1501691161000" />
+  </project-files>
+</conversion>
+

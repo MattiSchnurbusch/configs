@@ -1,0 +1,63 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="AndroidInitConfigurator.V4" value="true" />
+    <property name="AndroidInitConfigurator.V3" value="true" />
+    <property name="AndroidInitConfigurator.V1" value="true" />
+    <property name="AndroidInitConfigurator.V2" value="true" />
+    <property name="android-component-compatibility-check" value="1502876639738" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Pictures/Screenshots&#10;/home/matti/Development/apollo/apollo-sample/build.gradle&#10;/home/matti/Development/Gifty&#10;/home/matti/Development/dawanda/dev-tools/androidstudio_codestyle_160418.jar&#10;/home/matti/Downloads/Key-Promoter-3.1.1.zip&#10;/home/matti/Development/dawanda/AndroidNative/settings.gradle" />
+    <property name="lastTip" value="23" />
+    <property name="AndroidInitConfigurator.V5" value="true" />
+    <property name="installed.kotlin.plugin.version" value="1.1.4-release-Studio3.0-1" />
+    <property name="file.gist.reindex.count" value="3748" />
+    <property name="KEYMAP" value="extract resource&#10;close tab&#10;structure&#10;method&#10;navigate" />
+    <property name="PLUGIN_FILTER" value="lom&#10;key" />
+    <property name="plugins.preselection.path" value="$USER_HOME$/Downloads" />
+    <property name="selected.color.option.type" value="CONSTRUCTOR_DECLARATION_ATTRIBUTES" />
+    <property name="settings.code.style.selected.tab.JAVA" value="Wrapping and Braces" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.TOOL_ORDER" value="PROPERTIES,PALETTE,COMPONENT_TREE" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.TOOL_ORDER" value="PROPERTIES,PALETTE,COMPONENT_TREE" />
+    <property name="installation.uid" value="3d5b862f-18fa-4713-a5f8-01f209f66407" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="palette.category.width" value="100" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.LEFT.UNSCALED.WIDTH" value="225" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.RIGHT.UNSCALED.WIDTH" value="225" />
+    <property name="SAVED_COMPANY_DOMAIN" value="dawanda.com" />
+    <property name="SAVED_PROJECT_KOTLIN_SUPPORT" value="true" />
+    <property name="MobileminApi" value="21" />
+    <property name="kotlin.lastUpdateCheck" value="1502888595130" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="1" />
+    <property name="last.imported.location" value="$USER_HOME$/Development/Gifty" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="gradle.runner.text.console_str" value="true" />
+    <property name="gradle.runner.text.console" value="true" />
+    <property name="newly.installed.api.level" value="23" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.LEFT.UNSCALED.WIDTH" value="225" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.RIGHT.UNSCALED.WIDTH" value="225" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="search.everywhere.max.popup.width" value="680" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="LOG_FILTER_HISTORY" value="D/FA: Logging event&#10;FA&#10;adjust&#10;onN&#10;adjus" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+  </component>
+</application>

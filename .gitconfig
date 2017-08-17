@@ -1,0 +1,9 @@
+[user]
+	email = matti.schnurbusch@dawandamail.com
+	name = Matti Schnurbusch
+[core]
+	editor = vim
+[merge]
+	tool = kdiff3
+[mergetool]
+	keepBackup = false

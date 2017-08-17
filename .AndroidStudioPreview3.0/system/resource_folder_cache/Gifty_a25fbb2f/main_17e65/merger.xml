@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="res"><source path="/home/matti/Development/dawanda/Gifty/app/src/main/res"><file path="/home/matti/Development/dawanda/Gifty/app/src/main/res/layout/activity_main.xml" qualifiers="" timestamp="1501691068000"><item name="activity_main" type="layout">/home/matti/Development/dawanda/Gifty/app/src/main/res/layout/activity_main.xml</item></file><file path="/home/matti/Development/dawanda/Gifty/app/src/main/res/values/colors.xml" qualifiers="" timestamp="1501691067000"><color name="colorPrimary">#3F51B5</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#FF4081</color></file><file path="/home/matti/Development/dawanda/Gifty/app/src/main/res/values/styles.xml" qualifiers="" timestamp="1501691067000"><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style></file><file path="/home/matti/Development/dawanda/Gifty/app/src/main/res/values/strings.xml" qualifiers="" timestamp="1501691067000"><string name="app_name">Gifty</string></file></source></dataSet><mergedItems/></merger>
