@@ -95,3 +95,12 @@ export PATH=$PATH:$JAVA_HOME/bin
 alias as="sh /home/matti/Tools/android-studio/bin/studio.sh"
 alias asc="sh /home/matti/Tools/android-studio-canary/android-studio/bin/studio.sh"
 alias dawanda="cd ~/Development/dawanda"
+
+alias zshconfig="subl ~/.zshrc"
+alias thunderbird="/home/matti/Programme/thunderbird/thunderbird &"
+alias charles="/home/matti/Programme/charles/bin/charles &"
+alias rmorig=find . -name "*.orig" -exec rm -f {} \;
+alias adb="$ANDROID_HOME/platform-tools/adb"
+alias bundletool="/home/matti/Programme/bundletool/bundletool-all-0.5.0.jar"
+alias bo="~/Dev/bo_build.sh && tail -F $JBOSS_HOME/server/default/log/server.log"
+alias postman="~/Programme/Postman/Postman"
