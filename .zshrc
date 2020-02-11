@@ -2,18 +2,25 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/matti/.oh-my-zsh
+  export ZSH="/home/m.schnurbusch/.oh-my-zsh"
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
@@ -41,13 +48,17 @@ COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
@@ -56,11 +67,46 @@ plugins=(git gradle)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+# --------ALIASES-------------
+#-----------------------------
+
+alias as="sh /home/m.schnurbusch/Tools/android-studio/bin/studio.sh"
+alias asr="sh /home/m.schnurbusch/Tools/android-studio-rc/android-studio/bin/studio.sh"
+alias as4="sh /home/m.schnurbusch/Tools/android-studio-4.0/android-studio/bin/studio.sh"
+alias fluege="cd ~/Dev/fluege-android"
+alias mpp="cd ~/Dev/app-commons"
+
+alias zshconfig="subl ~/.zshrc"
+#alias thunderbird="/home/matti/Programme/thunderbird/thunderbird &"
+# --- 
+#alias charles="/home/matti/Programme/charles/bin/charles &"
+alias rmorig=find . -name "*.orig" -exec rm -f {} \;
+#alias adb="$ANDROID_HOME/platform-tools/adb"
+alias b="./gradlew"
+
+alias httpServ="sudo python2 -m SimpleHTTPServer 80"
+
+alias ticketTemplate="echo Hallo! Ich benötige ein Zugticket für
+Mittwoch xx.xx.
+Berlin - Leipzig - Berlin
+ohne Umsteigen, mit Sitzplatzreservierung,
+mit BC25"
+
+#alias bundletool="/home/matti/Programme/bundletool/bundletool-all-0.5.0.jar"
+#alias bo="~/Dev/bo_build.sh && tail -F $JBOSS_HOME/server/default/log/server.log"
+#alias postman="~/Programme/Postman/Postman"
+
+
+# --------PATH----------------
+#----------------------------- 
+
+
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export ANDROID_EMULATOR_USE_SYSTEM_LIBS=1
-export JAVA_HOME=$HOME/Tools/jdk1.8.0_144/
+export JAVA_HOME=/home/m.schnurbusch/Tools/android-studio/jre
 export PATH=$PATH:$JAVA_HOME/bin
 
 
@@ -80,9 +126,6 @@ export PATH=$PATH:$JAVA_HOME/bin
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -92,15 +135,3 @@ export PATH=$PATH:$JAVA_HOME/bin
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias as="sh /home/matti/Tools/android-studio/bin/studio.sh"
-alias asc="sh /home/matti/Tools/android-studio-canary/android-studio/bin/studio.sh"
-alias dawanda="cd ~/Development/dawanda"
-
-alias zshconfig="subl ~/.zshrc"
-alias thunderbird="/home/matti/Programme/thunderbird/thunderbird &"
-alias charles="/home/matti/Programme/charles/bin/charles &"
-alias rmorig=find . -name "*.orig" -exec rm -f {} \;
-alias adb="$ANDROID_HOME/platform-tools/adb"
-alias bundletool="/home/matti/Programme/bundletool/bundletool-all-0.5.0.jar"
-alias bo="~/Dev/bo_build.sh && tail -F $JBOSS_HOME/server/default/log/server.log"
-alias postman="~/Programme/Postman/Postman"

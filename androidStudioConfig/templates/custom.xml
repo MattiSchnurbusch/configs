@@ -1,0 +1,101 @@
+<templateSet group="custom">
+  <template name="after" value="@org.junit.jupiter.api.AfterEach&#10;fun afterEachTest(){&#10;    $END$&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="before" value="@org.junit.jupiter.api.BeforeEach&#10;fun beforeEachTest(){&#10;    $END$    &#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="class_to_test" value="val classToTest = $NAME$($PARAMETERS$)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="groovyScript(&quot;return _1.replace(\&quot;Test\&quot;, \&quot;\&quot;)&quot;, fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
+    <variable name="PARAMETERS" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="given" value="com.nhaarman.mockitokotlin2.given($CONDITION$).$ANSWER$($RETURN_VALUE$)" description="add a given statement" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ANSWER" expression="enum(&quot;willReturn&quot;, &quot;willDefer&quot;, &quot;onArgument&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_VALUE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="given_init" value="com.nhaarman.mockitokotlin2.given{ it.$CONDITION$ }.willReturn($RETURN_VALUE$)" description="add a given statement" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_VALUE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mock" value="val $NAME$: $TYPE$ = com.nhaarman.mockitokotlin2.mock()" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="groovyScript(&quot;String result = _1 == null ? \&quot;\&quot; : _1.split(\&quot;\\\\.\&quot;).last().split(\&quot;&lt;\&quot;).first();result = result == \&quot;\&quot; ? \&quot;\&quot; : result.substring(0, 1).toLowerCase() + result.substring(1);result.startsWith(\&quot;(\&quot;) ? \&quot;callback\&quot; : result&quot;, TYPE)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mock_extended" value="val $NAME$: $TYPE$ = com.nhaarman.mockitokotlin2.mock{&#10;    com.nhaarman.mockitokotlin2.given{it.$CONDITION$}.willReturn($RETURN_VALUE$)&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="groovyScript(&quot;String result = _1 == null ? \&quot;\&quot; : _1.split(\&quot;\\\\.\&quot;).last().split(\&quot;&lt;\&quot;).first();result = result == \&quot;\&quot; ? \&quot;\&quot; : result.substring(0, 1).toLowerCase() + result.substring(1);result.startsWith(\&quot;(\&quot;) ? \&quot;callback\&quot; : result&quot;, TYPE)" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONDITION" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_VALUE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="nested_tests" value="@org.junit.jupiter.api.Nested&#10;inner class `$NAME$`{&#10;        &#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="root_view" value="private val root = de.invia.flights.testkit.redukt.mockView().withChildViews(&#10;        R.id.$VIEW_ID$ to $VIEW_INSTANCE$&#10;)&#10;&#10;@org.junit.jupiter.api.BeforeEach&#10;fun beforeEachTest() {&#10;    classToTest.setRootView(root)&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_INSTANCE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VIEW_ID" expression="snakeCase(VIEW_INSTANCE)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="serialized_value" value="@SerializedName(&quot;$SERIALIZED_NAME$&quot;) val $NAME$: $TYPE$ = $DEFAULT_VALUE$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="decapitalize(TYPE)" defaultValue="" alwaysStopAt="true" />
+    <variable name="SERIALIZED_NAME" expression="lowercaseAndDash(NAME)" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT_VALUE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="set_state" value="private fun setState(state: $STATE_TYPE$) {&#10;    com.nhaarman.mockitokotlin2.given(viewModel.observe(com.nhaarman.mockitokotlin2.any(), any()))&#10;            .onArgument&lt;($STATE_TYPE$) -&gt; Unit&gt;(1) { invoke(state) }&#10;&#10;    classToTest.onCreate(de.invia.flights.testkit.mockLifecycleOwner())&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="STATE_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="suppress" value="@kotlin.Suppress($WHAT$)" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="WHAT" expression="enum(&quot;\&quot;UNCHECKED_CAST\&quot;&quot;, &quot;\&quot;UNUSED_PARAMETER\&quot;&quot;, &quot;\&quot;SENSELESS_COMPARISON\&quot;&quot;, &quot;\&quot;IMPLICIT_CAST_TO_ANY\&quot;&quot;, &quot;\&quot;CAST_NEVER_SUCCEEDS\&quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="test" value="@org.junit.jupiter.api.Test&#10;    fun `$NAME$`() {&#10;        $END$&#10;    }&#10;" description="insert a test method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="then" value="com.nhaarman.mockitokotlin2.then($MOCK$).should($MODIFIER$).$METHOD_CALL$" description="add a then statement" toReformat="false" toShortenFQNames="true">
+    <variable name="MOCK" expression="kotlinVariable()" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODIFIER" expression="enum(&quot;&quot;, &quot;times(1)&quot;, &quot;times(2)&quot;, &quot;times(3)&quot;, &quot;times(4)&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_CALL" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

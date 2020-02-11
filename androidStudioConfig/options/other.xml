@@ -1,0 +1,230 @@
+<application>
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$USER_HOME$/Dev/api-tools/Fluege Kotlin Code Style.xml" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Monospaced" />
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="16" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.DESIGN_FILES_PREVIEW_EDITOR.TOOL_ORDER" value="" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.LI_PROPERTIES.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.LI_PROPERTIES.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.LI_PROPERTIES.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.LI_PROPERTIES.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.LI_VIEW_TREE.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.LI_VIEW_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.LI_VIEW_TREE.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.LI_VIEW_TREE.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Layout Inspector.TOOL_ORDER" value="LI_VIEW_TREE,LI_PROPERTIES" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.DEACTIVATED.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.DEACTIVATED.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.DEACTIVATED.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.PROPERTIES.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.TOOL_ORDER" value="PROPERTIES,structure" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.structure.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.structure.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.structure.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.structure.DEACTIVATED.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.structure.DEACTIVATED.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.structure.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NAV_EDITOR.structure.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.FULL.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.COMPONENT_TREE.SPLIT.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.DEACTIVATED.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.FULL.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PALETTE.SPLIT.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.DEACTIVATED.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.MINIMIZED" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.FULL.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.PROPERTIES.SPLIT.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.NELE_EDITOR.TOOL_ORDER" value="PALETTE,PROPERTIES,COMPONENT_TREE" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Visualization.TOOL_ORDER" value="" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.COMPONENT_TREE.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.COMPONENT_TREE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.COMPONENT_TREE.DEACTIVATED.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.COMPONENT_TREE.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.COMPONENT_TREE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.COMPONENT_TREE.FULL.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.COMPONENT_TREE.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.COMPONENT_TREE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.COMPONENT_TREE.SPLIT.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.LI_PROPERTIES.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.LI_PROPERTIES.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.LI_PROPERTIES.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.LI_VIEW_TREE.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.LI_VIEW_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.LI_VIEW_TREE.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PALETTE.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PALETTE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PALETTE.DEACTIVATED.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PALETTE.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PALETTE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PALETTE.FULL.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PALETTE.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PALETTE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PALETTE.SPLIT.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PROPERTIES.DEACTIVATED.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PROPERTIES.DEACTIVATED.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PROPERTIES.DEACTIVATED.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PROPERTIES.FULL.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PROPERTIES.FULL.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PROPERTIES.FULL.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PROPERTIES.SPLIT.AUTO_HIDE" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PROPERTIES.SPLIT.LEFT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.null.PROPERTIES.SPLIT.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DESIGN_FILES_PREVIEW_EDITOR.TOOL_ORDER" value="" />
+    <property name="ATTACHED_TOOL_WINDOW.Layout Inspector.LI_VIEW_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Layout Inspector.TOOL_ORDER" value="LI_VIEW_TREE,LI_PROPERTIES" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.TOOL_ORDER" value="PROPERTIES,structure" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.structure.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NAV_EDITOR.structure.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.DEACTIVATED.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.FULL.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.COMPONENT_TREE.SPLIT.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.LEFT.UNSCALED.WIDTH" value="261" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PALETTE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.PROPERTIES.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.RIGHT.UNSCALED.WIDTH" value="333" />
+    <property name="ATTACHED_TOOL_WINDOW.NELE_EDITOR.TOOL_ORDER" value="PALETTE,PROPERTIES,COMPONENT_TREE" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ATTACHED_TOOL_WINDOW.Visualization.TOOL_ORDER" value="" />
+    <property name="ATTACHED_TOOL_WINDOW.null.COMPONENT_TREE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.COMPONENT_TREE.DEACTIVATED.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.COMPONENT_TREE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.COMPONENT_TREE.FULL.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.COMPONENT_TREE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.COMPONENT_TREE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.COMPONENT_TREE.SPLIT.SPLIT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.LI_VIEW_TREE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.PALETTE.DEACTIVATED.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.PALETTE.DEACTIVATED.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.PALETTE.FULL.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.PALETTE.SPLIT.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.PALETTE.SPLIT.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.PROPERTIES.DEACTIVATED.MINIMIZED" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.null.PROPERTIES.SPLIT.MINIMIZED" value="true" />
+    <property name="AndroidInitConfigurator.V1" value="true" />
+    <property name="AndroidInitConfigurator.V3" value="true" />
+    <property name="AndroidInitConfigurator.V5" value="true" />
+    <property name="BuildView.Splitter.Proportion" value="0.48535827" />
+    <property name="ColorChooser.RecentColors" value="246-189-16-255,,,0-0-0-255" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6045273" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="Default.SavedEditorTheme" value="_@user_Default" />
+    <property name="DesignLayout" value="Editor only" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="GradleSupport.hidePassedTests" value="false" />
+    <property name="GradleSupport.showInternalTestNodes" value="false" />
+    <property name="InstalledPluginsSearchHistory" value="index" />
+    <property name="JUnit.Splitter.Proportion" value="0.30529594" />
+    <property name="JUnitSupport.hideIgnoredTests" value="false" />
+    <property name="JUnitSupport.hidePassedTests" value="false" />
+    <property name="KEYMAP" value="build co&#10;split&#10;imports&#10;occu&#10;build" />
+    <property name="LOG_FILTER_HISTORY" value="&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&#10;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&#10;Booking&#10;session&#10;notification" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="NlScreenMode" value="SCREEN_ONLY" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="ProjectStructure.TopLevelElements" value="0.17" />
+    <property name="SAVED_ANDROID_NPW_LANGUAGE" value="Kotlin" />
+    <property name="SAVED_ANDROID_PACKAGE" value="de.unister.fluege" />
+    <property name="SHOW_INHERITED.file.structure.state" value="true" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/AlpacaMuscleMaintenance/app/src/main/res/layout/activity_main.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/account/src/main/res/layout/fragment_payments.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/booking/src/main/res/layout/activity_confirmation.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/booking/src/main/res/layout/address_form.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/booking/src/main/res/layout/booking_activity.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/booking/src/main/res/layout/booking_flight_details.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/booking/src/main/res/layout/booking_fragment_additional_products.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/booking/src/main/res/layout/booking_fragment_customer_form.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/booking/src/main/res/layout/booking_fragment_payment.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/booking/src/main/res/layout/fragment_feebox.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/booking/src/main/res/layout/product_widget.xml" value="SPLIT" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/commonui/src/main/res/layout/activity_datepicker.xml" value="DEACTIVATED" />
+    <property name="SPLIT_EDITOR_MODE_/home/m.schnurbusch/Dev/fluege-android/form/src/main/res/layout/credit_card_form_view.xml" value="DEACTIVATED" />
+    <property name="SettingsSearchHistory" value="editor&#10;keymap&#10;type&#10;return&#10;split" />
+    <property name="TextEditorWithPreview.SplitterProportionKey" value="0.7057522" />
+    <property name="TrendingPluginsSearchHistory" value="maven" />
+    <property name="android-component-compatibility-check" value="1581337057174" />
+    <property name="build.toolwindow.Build Output.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.run.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Dev/AlpacaMuscleMaintenance/app&#10;/home/m.schnurbusch/Dev/RecipePuppyApp/RecipePuppy&#10;/home/m.schnurbusch/Dev/fluege-android&#10;/home/m.schnurbusch/Dev/app-commons&#10;/home/m.schnurbusch/Dev/fluege2&#10;/home/m.schnurbusch/Bilder&#10;/home/m.schnurbusch/Dev/MultiSlider&#10;/home/m.schnurbusch/Dev/WidgetAdapter&#10;/home/m.schnurbusch/Dev/fluege-android/menu/src/test/java/de/invia/flights&#10;/home/m.schnurbusch/Dev/fluege-android/menu/src/main/java/de/invia/flights/menu&#10;/home/m.schnurbusch/Dev/fluege-android/menu/src/main/java/de/invia/flights/menu/common&#10;/home/m.schnurbusch/Dev/app-commons/common&#10;/home/m.schnurbusch/Dev/fluege-android/commonui/src/main/java/de/invia/flights/commonui/texts&#10;/home/m.schnurbusch/Dev/fluege-android/commonui/src/main/java/de/invia/flights/commonui/widget&#10;/home/m.schnurbusch/Dev/fluege-android/toolkit/src/test/java/de/invia/flights/toolkit/util&#10;/home/m.schnurbusch/Dev/fluege-android/base/src/main/java/de/invia/flights/base/di&#10;/home/m.schnurbusch/Dev/fluege-android/menu/src/main/res/layout&#10;/home/m.schnurbusch/Dev/fluege-android/account/src/main/res/layout&#10;/home/m.schnurbusch/Dev/fluege-android/toolkit/src/main/java/de/invia/flights/toolkit&#10;/home/m.schnurbusch/Dev/fluege-android/menu/src/main/java/de/invia/flights/menu/hotline&#10;/home/m.schnurbusch/Dev/fluege-android/menu/src/main/java/de/unister/fluege/menu&#10;/home/m.schnurbusch/Dev/fluege-android/base/src/main/java/de/invia/flights/base&#10;/home/m.schnurbusch/Dev/fluege-android/commonui/src/main/java/de/invia/flights/commonui/views/webview&#10;/home/m.schnurbusch/Dev/fluege-android/commonui/src/main/res/layout&#10;/home/m.schnurbusch/Dev/fluege-android/toolkit/src/main/java/de/invia/flights/toolkit/android&#10;/home/m.schnurbusch/.gradle/caches/modules-2/files-2.1/de.invia.flights/common/HHH-SNAPSHOT-TEST/c3f16c5ae04dbb49553fd624d8cd0aa07112d284&#10;/home/m.schnurbusch/Dev/fluege-android/commonui/src/main/res/drawable&#10;/home/m.schnurbusch/Downloads/icon-facebook.svg&#10;/home/m.schnurbusch/Downloads/icon-google.svg&#10;/home/m.schnurbusch/Bilder/google_signin_buttons/web/vector/btn_google_dark_normal_ios.svg" />
+    <property name="file.gist.reindex.count" value="181122" />
+    <property name="fileTypeChangedCounter" value="1" />
+    <property name="inspector.open.All Attributes" value="true" />
+    <property name="inspector.open.Declared Attributes" value="true" />
+    <property name="installed.kotlin.plugin.version" value="1.3.61-release-Studio3.6-1" />
+    <property name="kotlin.lastUpdateCheck" value="1581423235201" />
+    <property name="kotlin.plugin.releaseDate" value="1.3.61-release-Studio3.6-1:2019-11-26" />
+    <property name="last.imported.location" value="$USER_HOME$/Dev/AlpacaMuscleMaintenance/app" />
+    <property name="lastTip" value="148" />
+    <property name="newly.installed.api.level" value="29" />
+    <property name="selected.color.option.type" value="LOGCAT_ERROR_OUTPUT" />
+    <property name="studio.activity.count" value="59" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="tv.twelvetone.intellij.common.device-id" value="464ec118-5034-43d8-a192-2af2bd1fda78" />
+    <property name="tv.twelvetone.intellij.plugins.navigation.usage-counts" value="{&quot;productVersion&quot;:&quot;1.0.48&quot;,&quot;product&quot;:&quot;navigation&quot;,&quot;source&quot;:&quot;464ec118-5034-43d8-a192-2af2bd1fda78&quot;,&quot;lastSent&quot;:1581336996197,&quot;features&quot;:{&quot;lifecycle::init&quot;:{&quot;category&quot;:&quot;lifecycle&quot;,&quot;feature&quot;:&quot;init&quot;,&quot;count&quot;:1,&quot;last&quot;:1581337002714}}}" />
+  </component>
+</application>

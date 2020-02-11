@@ -1,9 +1,12 @@
+# Das ist Git's benutzerspezifische Konfigurationsdatei.
 [user]
-	email = matti.schnurbusch@dawandamail.com
+# Bitte passen Sie die folgenden Zeilen an und kommentieren Sie diese aus:
 	name = Matti Schnurbusch
+	email = matti.schnurbusch@invia.de
 [core]
 	editor = vim
+	excludesfile = ~/.gitignore_global
 [merge]
-	tool = kdiff3
+	tool=Kdiff3
 [mergetool]
 	keepBackup = false
